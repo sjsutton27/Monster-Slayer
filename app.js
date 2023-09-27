@@ -134,7 +134,7 @@ const app = Vue.createApp({
       //10% chance of critical damage, Math Random choose 0-1
       if (Math.random() < this.playerCriticalAttackChance) {
         this.monsterHealth -= attackValue * 2;
-        this.addLogMessage("player", "attack", attackValue * 2);
+        this.addLogMessage("player", "critical attack", attackValue * 2);
       } else {
         this.monsterHealth -= attackValue;
         this.addLogMessage("player", "attack", attackValue);
