@@ -1,5 +1,5 @@
 #Monster Slayer
-First/Intro Program into Vue,js with some of my own modifications and changed features
+First/Intro Program into Vue.js with some of my own modifications and changed features
 This is a front-end website that simulates a battle between a monster and a hero. 
 Players can use 6 abilities (Attack, Special Attack, Heal, Block, Poison, Level Up) to defeat the monster or choose to surrender. 
 The game includes a Battle Log and Health Bars to keep track of the progress and battle statistics.
